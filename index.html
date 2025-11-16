@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>SAB Gaming - Otimização Profissional</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body {
+      background: radial-gradient(circle at top left, #1a103d, #120024);
+      color: #fff;
+    }
+    .gradient-text {
+      background: linear-gradient(90deg, #9b5cff, #5af07d);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    .card {
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      border-radius: 1rem;
+      transition: 0.3s;
+    }
+    .card:hover {
+      transform: translateY(-4px);
+      background: rgba(255, 255, 255, 0.1);
+    }
+  </style>
+</head>
+
+<body class="font-sans">
+  <nav
+  class="fixed top-0 left-0 w-full z-50 flex justify-between items-center px-10 py-6 
+         bg-black/40 backdrop-blur-lg border-b border-white/10 shadow-[0_4px_20px_rgba(0,0,0,0.2)] transition-all"
+>
+  <div class="flex items-center gap-2">
+    <div class="bg-gradient-to-r from-green-400 to-purple-500 px-3 py-1 rounded-md font-bold shadow-md">
+      SAB
+    </div>
+    <h1 class="text-lg font-semibold text-white drop-shadow">SAB Gaming</h1>
+  </div>
+
+  <ul class="flex gap-8 text-sm text-gray-300">
+    <li><a href="#" class="hover:text-white transition">Início</a></li>
+    <li><a href="#plans" class="hover:text-white transition">Produtos</a></li>
+    <li><a href="#team" class="hover:text-white transition">Sobre</a></li>
+  </ul>
+</nav>
+
+  <section
+  class="relative flex flex-col md:flex-row justify-between items-center px-10 py-20 bg-cover bg-center bg-no-repeat"
+  style="background-image: url('./SECTION1.png');"
+>
+  <!-- Overlay opcional para escurecer o fundo -->
+  <div class="absolute inset-0 bg-black/60"></div>
+
+  <div class="relative max-w-2xl md:ml-10 z-10"> <!-- Aumentei largura e dei leve margem à esquerda -->
+    <button class="bg-purple-800/30 border border-purple-500 text-purple-200 px-5 py-2 rounded-full mb-6 text-base">
+      ⚡ Otimização Profissional
+    </button>
+
+    <h1 class="text-6xl font-extrabold leading-tight mb-6">
+      Maximize Seu <span class="gradient-text">Desempenho</span><br />
+      e suba <span class="gradient-text">Rankings</span>
+    </h1>
+
+    <p class="text-gray-300 text-lg mb-10">
+      Desbloqueie o verdadeiro potencial do seu PC. Nossa otimização profissional garante
+      <span class="text-green-400 font-semibold">mais FPS</span>, menor latência e performance máxima em qualquer jogo.
+    </p>
+
+    <ul class="space-y-3 mb-10 text-base">
+      <li>✅ +70% em ganho de FPS</li>
+      <li>⚡ Latência ultra-baixa</li>
+      <li>🧑‍💻 Saia desse elo baixo com nosso Boost de FPS</li>
+    </ul>
+
+    <div class="flex gap-5">
+      <a href="#plans" class="bg-gradient-to-r from-purple-500 to-green-400 px-8 py-4 rounded-lg font-semibold text-white text-lg shadow-lg hover:scale-105 transition">
+        Ver Planos
+      </a>
+      <a href="#team" class="bg-purple-800/30 px-8 py-4 rounded-lg font-semibold text-purple-200 text-lg border border-purple-500 hover:bg-purple-800/50 transition">
+        Conheça a SAB
+      </a>
+    </div>
+  </div>
+
+  <!-- Player de vídeo -->
+  <div class="relative mt-12 md:mt-0 md:mr-10 z-10"> <!-- Menos colado à direita -->
+    <video
+      class="rounded-2xl shadow-[0_0_25px_rgba(128,0,255,0.4)] w-[520px] object-cover"
+      autoplay
+      muted
+      loop
+      playsinline
+    >
+      <source src="./COMPILADOVIDEOS.mp4" type="video/mp4" />
+      Seu navegador não suporta vídeos HTML5.
+    </video>
+
+    
+      
+    </div>
+  </div>
+</section>
+
+ <section
+  id="plans"
+  class="relative text-center py-20 px-8 bg-cover bg-center bg-no-repeat"
+  style="background-image: url('./SECTION2.png');"
+>
+  <!-- Overlay escurecido opcional -->
+  <div class="absolute inset-0 bg-black/70"></div>
+
+  <div class="relative z-10">
+    <h2 class="text-4xl font-bold mb-3">
+      Pacotes de <span class="gradient-text">Otimização</span>
+    </h2>
+    <p class="text-gray-400 mb-12">
+      Escolha o plano perfeito para suas necessidades e comece a dominar os rankings hoje mesmo
+    </p>
+
+    <div class="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+      <!-- CARD 1 -->
+      <div class="card p-6 flex flex-col justify-between h-full">
+        <div>
+          <img
+            src="./valo.jpg"
+            class="rounded-lg mb-4 w-full h-48 object-cover"
+          />
+          <h3 class="text-xl font-semibold">Valorant</h3>
+          <p class="text-green-400 text-lg font-bold mb-2">
+            R$ 39,90 <span class="text-sm text-gray-400 font-normal">único</span>
+          </p>
+          <ul class="text-left text-sm space-y-2 mb-6">
+            <li>✅ Otimização do Windows</li>
+            <li>✅ Limpeza de arquivos temporários</li>
+            <li>✅ Ajustes de energia</li>
+            <li>⚡ E muito mais conteúdo, desbloqueie o potencial do seu PC</li>
+          </ul>
+        </div>
+        <div class="flex flex-col gap-3 mt-auto">
+          <a href="#" class="bg-blue-600 hover:bg-blue-700 px-6 py-2 rounded-md font-medium">Adquirir Já</a>
+          <a
+            href="#valo"
+            class="bg-blue-800/40 hover:bg-blue-700/50 px-6 py-2 rounded-md font-medium text-blue-300 border border-blue-500"
+          >
+            Antes e Depois
+          </a>
+        </div>
+      </div>
+
+      <!-- CARD 2 -->
+      <div class="card p-6 border-2 border-purple-500 flex flex-col justify-between h-full">
+        <div>
+          <img
+            src="./cs2.jpg"
+            class="rounded-lg mb-4 w-full h-48 object-cover"
+          />
+          <h3 class="text-xl font-semibold">CS2</h3>
+          <p class="text-purple-400 text-lg font-bold mb-2">
+            R$ 39,99 <span class="text-sm text-gray-400 font-normal">único</span>
+          </p>
+          <ul class="text-left text-sm space-y-2 mb-6">
+            <li>✅ Otimização de jogos</li>
+            <li>✅ Tweaks de latência</li>
+            <li>✅ Overclock seguro via prompt</li>
+            <li>⚡ E muito mais conteúdo, desbloqueie o potencial do seu PC</li>
+          </ul>
+        </div>
+        <div class="flex flex-col gap-3 mt-auto">
+          <a href="#" class="bg-purple-600 hover:bg-purple-700 px-6 py-2 rounded-md font-medium">Adquirir Já</a>
+          <a
+            href="#cs"
+            class="bg-purple-800/40 hover:bg-purple-700/50 px-6 py-2 rounded-md font-medium text-purple-300 border border-purple-500"
+          >
+            Antes e Depois
+          </a>
+        </div>
+      </div>
+
+      <!-- CARD 3 -->
+      <div class="card p-6 flex flex-col justify-between h-full">
+        <div>
+          <img
+            src="./fort.jpg"
+            class="rounded-lg mb-4 w-full h-48 object-cover"
+          />
+          <h3 class="text-xl font-semibold">Fortnite</h3>
+          <p class="text-orange-400 text-lg font-bold mb-2">
+            R$ 39,99 <span class="text-sm text-gray-400 font-normal">único</span>
+          </p>
+          <ul class="text-left text-sm space-y-2 mb-6">
+            <li>✅ Otimização para streaming</li>
+            <li>✅ Configuração personalizada</li>
+            <li>✅ Zero input lag</li>
+            <li>⚡ E muito mais conteúdo, desbloqueie o potencial do seu PC</li>
+          </ul>
+        </div>
+        <div class="flex flex-col gap-3 mt-auto">
+          <a href="#" class="bg-orange-500 hover:bg-orange-600 px-6 py-2 rounded-md font-medium">Adquirir Já</a>
+          <a
+            href="#fort"
+            class="bg-orange-800/40 hover:bg-orange-700/50 px-6 py-2 rounded-md font-medium text-orange-300 border border-orange-500"
+          >
+            Antes e Depois
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+  <section 
+  id="team" 
+  class="text-center py-20 px-8 bg-cover bg-center bg-no-repeat relative"
+  style="background-image: url('./SECTION3.png');"
+>
+  <!-- Overlay para contraste -->
+  <div class="absolute inset-0 bg-black/70 backdrop-blur-sm"></div>
+
+  <!-- Conteúdo -->
+  <div class="relative grid md:grid-cols-3 gap-8 max-w-6xl mx-auto z-10">
+    <!-- Felipe Alex -->
+    <div class="card p-6 flex flex-col items-center text-center h-full bg-black/40 backdrop-blur-md rounded-xl shadow-lg">
+      <div class="w-full h-64 overflow-hidden rounded-lg mb-4">
+        <img src="./Felipe Alex Camp.jpg"
+          class="w-full h-full object-cover object-center rounded-lg transition-transform duration-300 hover:scale-105" />
+      </div>
+      <div class="flex flex-col flex-grow justify-start">
+        <h3 class="font-bold text-lg mb-1 text-white">Felipe Alex</h3>
+        <p class="text-purple-400 text-sm mb-2">Front END, Designer e EX jogador Profissional</p>
+        <p class="text-gray-300 text-sm">Especialista em otimização de sistemas</p>
+      </div>
+    </div>
+
+    <!-- Felippe Santos -->
+    <div class="card p-6 flex flex-col items-center text-center h-full bg-black/40 backdrop-blur-md rounded-xl shadow-lg">
+      <div class="w-full h-64 overflow-hidden rounded-lg mb-4">
+        <img src="./CR.png"
+          class="w-full h-full object-cover object-center rounded-lg transition-transform duration-300 hover:scale-105" />
+      </div>
+      <div class="flex flex-col flex-grow justify-start">
+        <h3 class="font-bold text-lg mb-1 text-white">Felippe Santos</h3>
+        <p class="text-pink-400 text-sm mb-2">Dev Full Stack e EX jogador Profissional</p>
+        <p class="text-gray-300 text-sm">Desenvolvedor full-stack apaixonado por criar experiências digitais impactantes</p>
+      </div>
+    </div>
+
+    <!-- Gabriel Barci -->
+    <div class="card p-6 flex flex-col items-center text-center h-full bg-black/40 backdrop-blur-md rounded-xl shadow-lg">
+      <div class="w-full h-64 overflow-hidden rounded-lg mb-4">
+        <img src="./GabrielBarci.png"
+          class="w-full h-full object-cover object-center rounded-lg transition-transform duration-300 hover:scale-105" />
+      </div>
+      <div class="flex flex-col flex-grow justify-start">
+        <h3 class="font-bold text-lg mb-1 text-white">Gabriel Barci</h3>
+        <p class="text-green-400 text-sm mb-2">UI/UX Designer, Desenvolvedor e EX jogador Profissional</p>
+        <p class="text-gray-300 text-sm">Designer e desenvolvedor focado em interfaces modernas e alta conversão</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<section id="valo" class="py-24 flex flex-col items-center justify-center bg-gradient-to-b from-[#0a001a] to-[#150030] text-center">
+  <!-- Título -->
+  <h2 class="valorant-title text-5xl md:text-6xl font-extrabold mb-10 tracking-widest">
+    ANTES E DEPOIS <span class="text-[#ff4655]">VALORANT</span>
+  </h2>
+
+  <!-- Player de vídeo centralizado -->
+  <div class="w-[80%] max-w-6xl relative rounded-2xl overflow-hidden shadow-[0_0_35px_rgba(128,0,255,0.5)]">
+    <video
+      class="w-full h-auto rounded-2xl object-cover"
+      autoplay
+      muted
+      loop
+      playsinline
+    >
+      <source src="./VALOVIDEOSITE.mp4" type="video/mp4" />
+      Seu navegador não suporta vídeos HTML5.
+    </video>
+
+    <!-- Legenda opcional -->
+    <div class="absolute bottom-4 left-1/2 -translate-x-1/2 bg-[#0b0020]/80 px-6 py-2 rounded-lg text-sm text-gray-300">
+      🎯 Comparativo de Performance
+    </div>
+  </div>
+</section>
+
+<!-- Estilo personalizado -->
+<style>
+  @import url('https://fonts.cdnfonts.com/css/valorant'); /* Fonte oficial inspirada no Valorant */
+
+  .valorant-title {
+    font-family: 'Valorant', sans-serif;
+    color: #ffffff;
+    letter-spacing: 0.15em;
+    text-shadow: 0 0 15px rgba(255, 70, 85, 0.8),
+                 0 0 30px rgba(255, 70, 85, 0.4);
+    position: relative;
+  }
+
+  .valorant-title span {
+    color: #ff4655;
+    text-shadow: 0 0 20px rgba(255, 70, 85, 0.9),
+                 0 0 40px rgba(255, 70, 85, 0.5);
+  }
+</style>
+
+
+<section id="cs" class="py-24 flex flex-col items-center justify-center bg-gradient-to-b from-[#0a001a] to-[#150030] text-center">
+  <!-- Título -->
+  <h2 class="cs2-title text-5xl md:text-6xl font-extrabold mb-10 tracking-widest">
+    ANTES E DEPOIS <span class="text-[#d7b85b]">CS2</span>
+  </h2>
+
+  <!-- Player de vídeo centralizado -->
+  <div class="w-[80%] max-w-6xl relative rounded-2xl overflow-hidden shadow-[0_0_35px_rgba(215,184,91,0.4)]">
+    <video
+      class="w-full h-auto rounded-2xl object-cover"
+      autoplay
+      muted
+      loop
+      playsinline
+    >
+      <source src="./CSVIDEOSITE.mp4" type="video/mp4" />
+      Seu navegador não suporta vídeos HTML5.
+    </video>
+
+    <!-- Legenda -->
+    <div class="absolute bottom-4 left-1/2 -translate-x-1/2 bg-[#0b0020]/80 px-6 py-2 rounded-lg text-sm text-gray-300">
+      💥 Comparativo de Performance
+    </div>
+  </div>
+</section>
+
+<!-- Estilo personalizado -->
+<style>
+  @import url('https://fonts.cdnfonts.com/css/bebas-neue'); /* Fonte robusta estilo CS2 */
+
+  .cs2-title {
+    font-family: 'Bebas Neue', sans-serif;
+    color: #e0e0e0;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    text-shadow:
+      0 0 10px rgba(215,184,91,0.6),
+      0 0 25px rgba(215,184,91,0.3);
+    position: relative;
+  }
+
+  .cs2-title span {
+    color: #d7b85b;
+    text-shadow:
+      0 0 20px rgba(215,184,91,0.9),
+      0 0 40px rgba(215,184,91,0.5);
+  }
+
+  /* Efeito de linha inferior tipo mira */
+  .cs2-title::after {
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 160px;
+    height: 3px;
+    background: linear-gradient(90deg, transparent, #d7b85b, transparent);
+    border-radius: 2px;
+  }
+</style>
+
+
+<section id="fort" class="py-24 flex flex-col items-center justify-center bg-gradient-to-b from-[#0a001a] to-[#150030] text-center">
+  <!-- Título -->
+  <h2 class="fortnite-title text-5xl md:text-6xl font-extrabold mb-10 tracking-widest">
+    ANTES E DEPOIS <span class="text-[#6cf1ff]">FORTNITE</span>
+  </h2>
+
+  <!-- Player de vídeo centralizado -->
+  <div class="w-[80%] max-w-6xl relative rounded-2xl overflow-hidden shadow-[0_0_35px_rgba(108,241,255,0.5)]">
+    <video
+      class="w-full h-auto rounded-2xl object-cover"
+      autoplay
+      muted
+      loop
+      playsinline
+    >
+      <source src="./FORTVIDEOSITE.mp4" type="video/mp4" />
+      Seu navegador não suporta vídeos HTML5.
+    </video>
+
+    <!-- Legenda opcional -->
+    <div class="absolute bottom-4 left-1/2 -translate-x-1/2 bg-[#0b0020]/80 px-6 py-2 rounded-lg text-sm text-gray-300">
+      🕹️ Comparativo de Performance
+    </div>
+  </div>
+</section>
+
+<!-- Estilo personalizado -->
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Burbank+Big+Condensed:wght@700&display=swap');
+
+  /* Título estilo Fortnite */
+  .fortnite-title {
+    font-family: 'Burbank Big Condensed', sans-serif;
+    color: #ffffff;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    text-shadow:
+      0 0 10px rgba(108, 241, 255, 0.8),
+      0 0 25px rgba(149, 91, 255, 0.5),
+      0 0 50px rgba(108, 241, 255, 0.3);
+    position: relative;
+    animation: fortniteGlow 3s infinite ease-in-out;
+  }
+
+  .fortnite-title span {
+    color: #6cf1ff;
+    text-shadow:
+      0 0 20px rgba(108, 241, 255, 0.9),
+      0 0 40px rgba(149, 91, 255, 0.6);
+  }
+
+  /* Animação pulsante estilo Fortnite neon */
+  @keyframes fortniteGlow {
+    0%, 100% {
+      text-shadow:
+        0 0 15px rgba(108, 241, 255, 0.8),
+        0 0 35px rgba(149, 91, 255, 0.5);
+    }
+    50% {
+      text-shadow:
+        0 0 25px rgba(108, 241, 255, 1),
+        0 0 55px rgba(149, 91, 255, 0.8);
+    }
+  }
+
+  /* Linha decorativa estilo energia */
+  .fortnite-title::after {
+    content: "";
+    position: absolute;
+    bottom: -12px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 180px;
+    height: 4px;
+    background: linear-gradient(90deg, #6cf1ff, #955bff, #6cf1ff);
+    border-radius: 2px;
+    box-shadow: 0 0 15px rgba(108, 241, 255, 0.7);
+  }
+</style>
+
+
+</body>
+</html>
